@@ -1,5 +1,5 @@
 name: app_value_notifier
-description: A new Flutter project.
+description: Application to manage states in flutter using ValueNotifier.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
