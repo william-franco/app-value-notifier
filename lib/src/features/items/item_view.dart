@@ -39,10 +39,22 @@ class ItemsView extends StatelessWidget {
           },
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        key: const Key('addItemToList'),
-        child: const Icon(Icons.add_outlined),
-        onPressed: () => itemsNotifier.addItemToList(),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: <Widget>[
+          FloatingActionButton(
+            key: const Key('addItemToList'),
+            child: const Icon(Icons.add_outlined),
+            onPressed: () => itemsNotifier.addItemToList(),
+          ),
+          const SizedBox(height: 8),
+          FloatingActionButton(
+            key: const Key('removeItemFromList'),
+            child: const Icon(Icons.remove_outlined),
+            onPressed: () => itemsNotifier.removeItemFromList(),
+          ),
+        ],
       ),
     );
   }

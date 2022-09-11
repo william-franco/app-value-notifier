@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       valueListenable: themeNotifier,
       builder: (context, value, widget) {
         return MaterialApp(
-          title: 'Flutter',
+          title: 'App ValueNotifier',
           debugShowCheckedModeBanner: false,
           theme: ThemeData.light(),
           darkTheme: ThemeData.dark(),
