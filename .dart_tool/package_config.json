@@ -62,10 +62,34 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///home/william/Development/Flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "go_router",
+      "rootUri": "file:///home/william/Development/Flutter/.pub-cache/hosted/pub.dartlang.org/go_router-5.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///home/william/Development/Flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///home/william/Development/Flutter/.pub-cache/hosted/pub.dartlang.org/lints-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///home/william/Development/Flutter/.pub-cache/hosted/pub.dartlang.org/logging-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "matcher",
@@ -146,7 +170,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-09-02T23:05:02.704762Z",
+  "generated": "2022-09-21T21:10:39.454288Z",
   "generator": "pub",
-  "generatorVersion": "2.18.0"
+  "generatorVersion": "2.18.1"
 }

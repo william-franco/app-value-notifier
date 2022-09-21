@@ -1,5 +1,5 @@
-import 'package:app_value_notifier/src/features/bottom/bottom_view.dart';
 import 'package:app_value_notifier/src/features/settings/setting_notifier.dart';
+import 'package:app_value_notifier/src/routes/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,13 +15,13 @@ class MyApp extends StatelessWidget {
     return ValueListenableBuilder(
       valueListenable: themeNotifier,
       builder: (context, value, widget) {
-        return MaterialApp(
+        return MaterialApp.router(
           title: 'App ValueNotifier',
           debugShowCheckedModeBanner: false,
           theme: ThemeData.light(),
           darkTheme: ThemeData.dark(),
           themeMode: value ? ThemeMode.dark : ThemeMode.light,
-          home: const BottomView(),
+          routerConfig: Routes.routes,
         );
       },
     );
