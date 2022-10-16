@@ -69,7 +69,7 @@
     },
     {
       "name": "go_router",
-      "rootUri": "file:///home/william/Development/Flutter/.pub-cache/hosted/pub.dartlang.org/go_router-5.0.0",
+      "rootUri": "file:///home/william/Development/Flutter/.pub-cache/hosted/pub.dartlang.org/go_router-5.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -170,7 +170,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-09-21T21:10:39.454288Z",
+  "generated": "2022-10-16T12:56:51.545301Z",
   "generator": "pub",
-  "generatorVersion": "2.18.1"
+  "generatorVersion": "2.18.2"
 }
