@@ -18,10 +18,14 @@ class MyApp extends StatelessWidget {
         return MaterialApp.router(
           title: 'App ValueNotifier',
           debugShowCheckedModeBanner: false,
-          theme: ThemeData.light(),
-          darkTheme: ThemeData.dark(),
+          theme: ThemeData.light(
+            useMaterial3: true,
+          ),
+          darkTheme: ThemeData.dark(
+            useMaterial3: true,
+          ),
           themeMode: value ? ThemeMode.dark : ThemeMode.light,
-          routerConfig: Routes.routes,
+          routerConfig: routesApp.routes,
         );
       },
     );
