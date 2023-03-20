@@ -1,8 +1,15 @@
 import 'package:app_value_notifier/src/features/items/item_notifier.dart';
 import 'package:flutter/material.dart';
 
-class ItemsView extends StatelessWidget {
+class ItemsView extends StatefulWidget {
   const ItemsView({super.key});
+
+  @override
+  State<ItemsView> createState() => _ItemsViewState();
+}
+
+class _ItemsViewState extends State<ItemsView> {
+  final itemsNotifier = ItemsNotifier();
 
   @override
   Widget build(BuildContext context) {

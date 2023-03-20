@@ -2,9 +2,6 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-// global instance.
-final bottomNotifier = BottomNotifier();
-
 class BottomNotifier extends ValueNotifier<int> {
   BottomNotifier() : super(0);
 

@@ -2,9 +2,6 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-// global instance.
-final counterNotifier = CounterNotifier();
-
 class CounterNotifier extends ValueNotifier<int> {
   CounterNotifier() : super(0);
 
@@ -15,7 +12,7 @@ class CounterNotifier extends ValueNotifier<int> {
   }
 
   void decrement() {
-    value--;
+    value > 0 ? value-- : 0;
     _debugNotifier();
     notifyListeners();
   }

@@ -1,8 +1,15 @@
 import 'package:app_value_notifier/src/features/counter/counter_notifier.dart';
 import 'package:flutter/material.dart';
 
-class CounterView extends StatelessWidget {
+class CounterView extends StatefulWidget {
   const CounterView({super.key});
+
+  @override
+  State<CounterView> createState() => _CounterViewState();
+}
+
+class _CounterViewState extends State<CounterView> {
+  final counterNotifier = CounterNotifier();
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +31,7 @@ class CounterView extends StatelessWidget {
                 builder: (context, value, widget) {
                   return Text(
                     '$value',
-                    style: Theme.of(context).textTheme.headline4,
+                    style: Theme.of(context).textTheme.headlineMedium,
                   );
                 },
               ),

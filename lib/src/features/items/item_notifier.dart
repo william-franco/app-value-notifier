@@ -2,9 +2,6 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-// global instance.
-final itemsNotifier = ItemsNotifier();
-
 class ItemsNotifier extends ValueNotifier<List<int>> {
   ItemsNotifier() : super([]);
 

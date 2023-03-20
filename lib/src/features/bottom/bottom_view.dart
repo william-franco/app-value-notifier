@@ -12,6 +12,8 @@ class BottomView extends StatefulWidget {
 }
 
 class _BottomViewState extends State<BottomView> {
+  final bottomNotifier = BottomNotifier();
+
   final _tabs = [
     const CounterView(),
     const ItemsView(),
