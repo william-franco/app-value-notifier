@@ -1,4 +1,4 @@
-import 'package:app_value_notifier/src/features/items/item_view.dart';
+import 'package:app_value_notifier/src/features/items/views/item_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

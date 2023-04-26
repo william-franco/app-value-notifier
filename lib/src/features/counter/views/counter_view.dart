@@ -1,18 +1,13 @@
-import 'package:app_value_notifier/src/features/counter/counter_notifier.dart';
+import 'package:app_value_notifier/src/features/counter/view_models/counter_view_model.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-class CounterView extends StatefulWidget {
+class CounterView extends StatelessWidget {
   const CounterView({super.key});
 
   @override
-  State<CounterView> createState() => _CounterViewState();
-}
-
-class _CounterViewState extends State<CounterView> {
-  final counterNotifier = CounterNotifier();
-
-  @override
   Widget build(BuildContext context) {
+    final counter = context.watch<CounterViewModel>().value;
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
@@ -26,14 +21,9 @@ class _CounterViewState extends State<CounterView> {
               const Text(
                 'You have pushed the button this many times:',
               ),
-              ValueListenableBuilder(
-                valueListenable: counterNotifier,
-                builder: (context, value, widget) {
-                  return Text(
-                    '$value',
-                    style: Theme.of(context).textTheme.headlineMedium,
-                  );
-                },
+              Text(
+                '$counter',
+                style: Theme.of(context).textTheme.headlineMedium,
               ),
             ],
           ),
@@ -46,13 +36,17 @@ class _CounterViewState extends State<CounterView> {
           FloatingActionButton(
             key: const Key('increment'),
             child: const Icon(Icons.add_outlined),
-            onPressed: () => counterNotifier.increment(),
+            onPressed: () {
+              context.read<CounterViewModel>().increment();
+            },
           ),
           const SizedBox(height: 8),
           FloatingActionButton(
             key: const Key('decrement'),
             child: const Icon(Icons.remove_outlined),
-            onPressed: () => counterNotifier.decrement(),
+            onPressed: () {
+              context.read<CounterViewModel>().decrement();
+            },
           ),
         ],
       ),

@@ -1,4 +1,4 @@
-import 'package:app_value_notifier/src/features/bottom/bottom_view.dart';
+import 'package:app_value_notifier/src/features/bottom/views/bottom_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 
