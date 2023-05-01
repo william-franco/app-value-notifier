@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 class ThemeViewModel extends ValueNotifier<bool> {
   ThemeViewModel() : super(false);
 
-  void changeTheme(bool darkTheme) {
-    value = darkTheme;
+  void changeTheme(bool isDarkTheme) {
+    value = isDarkTheme;
     _debug();
   }
 
