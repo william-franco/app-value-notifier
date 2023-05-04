@@ -1,6 +1,11 @@
-import 'package:app_value_notifier/src/features/settings/view_model/setting_notifier.dart';
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:provider/provider.dart';
+
+// Project imports:
+import 'package:app_value_notifier/src/features/settings/view_model/setting_notifier.dart';
 
 class SettingView extends StatelessWidget {
   const SettingView({super.key});

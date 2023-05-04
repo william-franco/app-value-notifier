@@ -1,9 +1,14 @@
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:app_value_notifier/src/features/bottom/view_models/bottom_view_model.dart';
 import 'package:app_value_notifier/src/features/counter/views/counter_view.dart';
 import 'package:app_value_notifier/src/features/items/views/item_view.dart';
 import 'package:app_value_notifier/src/features/settings/views/setting_view.dart';
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class BottomView extends StatefulWidget {
   const BottomView({super.key});

@@ -1,6 +1,11 @@
-import 'package:app_value_notifier/src/features/counter/view_models/counter_view_model.dart';
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:provider/provider.dart';
+
+// Project imports:
+import 'package:app_value_notifier/src/features/counter/view_models/counter_view_model.dart';
 
 class CounterView extends StatelessWidget {
   const CounterView({super.key});

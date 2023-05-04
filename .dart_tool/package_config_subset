@@ -1,3 +1,7 @@
+args
+2.18
+file:///home/william/.pub-cache/hosted/pub.dev/args-2.4.1/
+file:///home/william/.pub-cache/hosted/pub.dev/args-2.4.1/lib/
 async
 2.18
 file:///home/william/.pub-cache/hosted/pub.dev/async-2.10.0/
@@ -34,6 +38,10 @@ go_router
 2.18
 file:///home/william/.pub-cache/hosted/pub.dev/go_router-6.5.8/
 file:///home/william/.pub-cache/hosted/pub.dev/go_router-6.5.8/lib/
+import_sorter
+2.12
+file:///home/william/.pub-cache/hosted/pub.dev/import_sorter-4.6.0/
+file:///home/william/.pub-cache/hosted/pub.dev/import_sorter-4.6.0/lib/
 js
 2.16
 file:///home/william/.pub-cache/hosted/pub.dev/js-0.6.5/
@@ -94,10 +102,18 @@ test_api
 2.18
 file:///home/william/.pub-cache/hosted/pub.dev/test_api-0.4.16/
 file:///home/william/.pub-cache/hosted/pub.dev/test_api-0.4.16/lib/
+tint
+2.18
+file:///home/william/.pub-cache/hosted/pub.dev/tint-2.0.1/
+file:///home/william/.pub-cache/hosted/pub.dev/tint-2.0.1/lib/
 vector_math
 2.14
 file:///home/william/.pub-cache/hosted/pub.dev/vector_math-2.1.4/
 file:///home/william/.pub-cache/hosted/pub.dev/vector_math-2.1.4/lib/
+yaml
+2.19
+file:///home/william/.pub-cache/hosted/pub.dev/yaml-3.1.2/
+file:///home/william/.pub-cache/hosted/pub.dev/yaml-3.1.2/lib/
 sky_engine
 2.12
 file:///home/william/Development/Flutter/bin/cache/pkg/sky_engine/
@@ -116,6 +132,6 @@ file:///home/william/Development/Flutter/packages/flutter_web_plugins/
 file:///home/william/Development/Flutter/packages/flutter_web_plugins/lib/
 app_value_notifier
 2.19
-file:///home/william/Documentos/new_projects/value_notifier/app_value_notifier/
-file:///home/william/Documentos/new_projects/value_notifier/app_value_notifier/lib/
+file:///home/william/Documentos/new_projects/provider/app_value_notifier/
+file:///home/william/Documentos/new_projects/provider/app_value_notifier/lib/
 2
