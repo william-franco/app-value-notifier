@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:app_value_notifier/src/dependency_injector/dependency_injector.dart';
-import 'package:app_value_notifier/src/features/settings/view_model/setting_notifier.dart';
+import 'package:app_value_notifier/src/features/settings/view_model/setting_view_model.dart';
 import 'package:app_value_notifier/src/routes/routes.dart';
 
 void main() {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final isDarkTheme = context.watch<ThemeViewModel>().value;
+    final isDarkTheme = context.watch<SettingViewModel>().value;
     return MaterialApp.router(
       title: 'App ValueNotifier',
       debugShowCheckedModeBanner: false,

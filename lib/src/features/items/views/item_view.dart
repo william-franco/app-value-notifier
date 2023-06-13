@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:app_value_notifier/src/common_widgets/common_padding.dart';
 import 'package:app_value_notifier/src/features/items/view_model/item_view_model.dart';
 
 class ItemsView extends StatelessWidget {
@@ -26,9 +27,9 @@ class ItemsView extends StatelessWidget {
           ),
         ],
       ),
-      body: SafeArea(
+      body: CommonPadding(
         child: items.isEmpty
-            ? const Center(child: Text('The list is empty.'))
+            ? const Text('The list is empty.')
             : ListView.builder(
                 itemCount: items.length,
                 itemBuilder: (context, index) {
