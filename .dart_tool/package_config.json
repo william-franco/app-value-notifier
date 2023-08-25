@@ -33,7 +33,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/collection-1.17.1",
+      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/collection-1.17.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -75,21 +75,15 @@
     },
     {
       "name": "go_router",
-      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/go_router-10.0.0",
+      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/go_router-10.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "import_sorter",
       "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/import_sorter-4.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "js",
-      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/js-0.6.7",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
     },
     {
       "name": "lints",
@@ -105,15 +99,15 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/matcher-0.12.15",
+      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/matcher-0.12.16",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/material_color_utilities-0.2.0",
+      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.13"
+      "languageVersion": "2.17"
     },
     {
       "name": "meta",
@@ -147,9 +141,9 @@
     },
     {
       "name": "source_span",
-      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/source_span-1.9.1",
+      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "stack_trace",
@@ -177,7 +171,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/test_api-0.5.1",
+      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/test_api-0.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -194,6 +188,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "web",
+      "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/web-0.1.4-beta",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "yaml",
       "rootUri": "file:///home/william/.pub-cache/hosted/pub.dev/yaml-3.1.2",
       "packageUri": "lib/",
@@ -203,10 +203,10 @@
       "name": "app_value_notifier",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-07-24T20:13:42.617494Z",
+  "generated": "2023-08-24T18:25:17.697942Z",
   "generator": "pub",
-  "generatorVersion": "3.0.6"
+  "generatorVersion": "3.1.0"
 }
