@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final isDarkTheme = context.watch<SettingViewModel>().value;
+    final viewModel = context.watch<SettingViewModel>();
     return MaterialApp.router(
       title: 'App ValueNotifier',
       debugShowCheckedModeBanner: false,
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(
         useMaterial3: true,
       ),
-      themeMode: isDarkTheme ? ThemeMode.dark : ThemeMode.light,
+      themeMode: viewModel.value.isDarkTheme ? ThemeMode.dark : ThemeMode.light,
       routerConfig: routesApp.routes,
     );
   }
